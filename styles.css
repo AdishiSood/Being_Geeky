@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    transition-delay: 5s;
+    transition-delay: 4s;
 }    
 body{
     font-family: "PT Sans", sans-serif;
@@ -16,7 +16,7 @@ body{
     background-color: rgb(71, 111, 112);
     color: #ffffff;
 }
-#beingGeeky{
+#Geeky{
     padding: 18% 10%;
 }
 #documentation {
@@ -26,7 +26,7 @@ body{
     color: #333333;
     padding: 5% 10%;
 }
-#vdo2 {
+#video2 {
     padding: 15% 10%;
 }
 #coupons {
@@ -40,16 +40,16 @@ body{
     padding-right: 5%;
     margin-left: 15%;    
 }
-#documentation > h1, #documentation > h2 , #video > h2, #vdo2 > h2{
+#documentation > h1, #documentation > h2 , #video > h2, #video2 > h2{
     text-align: center;
     margin-bottom: 30px;
 }
-#beingGeeky > h1 {
+#Geeky > h1 {
     font-size: 64px;
     text-align: center;
     margin-bottom: 30px;
 }
-#beingGeeky > h4 {
+#Geeky > h4 {
     text-align: center;
     font-size: 32px;
 }
@@ -114,13 +114,13 @@ hr {
 }
 
 @media all and (max-width: 575px) {
-    #beingGeeky > p {
+    #Geeky > p {
         display: none;
     }
-    #beingGeeky > h1 {
+    #Geeky > h1 {
         padding-top: 20%;
     }
-    #beingGeeky > h4 {
+    #Geeky > h4 {
         text-align: center;
         font-size: 25px;
     }
