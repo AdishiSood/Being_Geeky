@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main > h1, .main > h2 , .main > p{
+    max-width: 78%;
+    line-height: 1.6;
+    margin: 15px 0px;
+    font-family: 'PT Sans',sans-serif;
+}
+.main > h1 {
+    font-size: 4rem;
+}
+.main > h2 {
+    font-size: 2rem;
+}
+.main > p{
+    text-align: center;
+    font-size: 1.3rem;
+}
