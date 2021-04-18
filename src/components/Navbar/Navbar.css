@@ -1,0 +1,24 @@
+nav {
+    padding: 10px;
+    background: #333333;
+    color: #EEEEEE;
+    position: fixed;
+    width: 100%;
+}
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+nav > ul > li {
+    margin: 0px 25px;
+    cursor: pointer;
+}
+nav > ul > li:hover {
+    transform: scale(1.1);
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
