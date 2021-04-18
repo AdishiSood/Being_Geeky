@@ -1,0 +1,22 @@
+.banner {
+    background: #476F70;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    height: 80vh;
+}
+.banner > h2, .banner > p {
+    text-align: center;
+    max-width: 78%;
+    padding-top: 20px;
+    margin: 10px auto;
+}
+.banner > h2 {
+    font-size: 2rem;
+}
+.banner > p {
+    font-size: 1.3rem;
+}
