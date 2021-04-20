@@ -1,0 +1,39 @@
+.coupouns {
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.coupon-container {
+    flex-basis: 30%;
+}
+.coupon-info {
+    flex-basis: 40%;
+}
+
+.coupon-container > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+.coupon-info > h3 {
+    font-size: 1.5rem;
+}
+.coupon-info > p {
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+.coupon-info > span {
+    display: block;
+    margin-bottom: 10px;
+}
+.coupon-info > a {
+    text-decoration: none;
+    color: #444;
+    padding: 10px 0px;
+    display: block;
+}
